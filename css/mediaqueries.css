@@ -1,0 +1,424 @@
+@media (max-width: 321px) {
+/* section1 */   
+   #BG-Section1{
+   flex-wrap: nowrap;
+   }
+   #section1-title{
+    font-size: 29px;
+    width: 320px;
+   }
+   #section1-paragraph1{
+    font-size: 20px;
+    width: 320px;
+   }
+   #formulario1-box1{
+    padding: 7px 6px; 
+    width: 22%;
+   }
+   
+   #div-form{
+    width: 320px;
+   }
+
+   #formulario1-box2{
+    padding: 7px 6px;
+    width: 22%;
+    margin-left: 15px;
+   }
+  
+   #formulario1-button{
+    padding-right: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5.5px;
+    width: 27%;
+    font-size: 12px;
+    margin-left: 15px;
+   }
+      
+   input::placeholder {
+    font-size: 12px; 
+   }
+  
+   #section1-container-rodape{
+    grid-template-rows: 85px 85px;
+    grid-template-columns: 130px 130px;
+    justify-content: space-evenly;
+    width: 320px;
+   }
+  
+   .section1-dot1{
+    display: none;
+   }
+
+   .section1-customers-img{
+    max-width: 130px;
+    max-height: 130px;
+   }
+
+/* section2 */
+   .container-section2{
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    grid-template-columns: 60px 180px;
+    justify-content: center;
+    align-items: center;
+   }
+      
+   .texto-titulo{
+    margin: 0px;
+   }
+   
+   .gg-check-o{
+    transform: scale(var(--ggs,2));
+   }
+
+   .gg-credit-card{
+    transform: scale(var(--ggs,2));
+   }
+
+   .gg-smile-none{
+    transform: scale(var(--ggs,2));
+   }
+
+   .gg-smile-mouth-open{
+    transform: scale(var(--ggs,2));
+   }
+
+   .gg-user-add{
+    transform: scale(var(--ggs,2));
+   }
+
+   .gg-band-aid{
+    transform: scale(var(--ggs,2)) rotate(-25deg);
+   }
+
+   .gg-awards{
+    transform: scale(var(--ggs,2));
+   }
+
+   .textos-titulo2{
+    font-size: 15px;
+   }
+   
+   .textos-feature{
+    font-size: 12px;
+    width: 200px;
+   }
+   
+   .textos-paragrafo2{
+    width: 200px;
+   }
+/* section3 */
+   #section3-paragraph{
+    text-align: center;
+   }
+      
+   #section3-title{
+    text-align: center;
+   }
+      
+   #section3-textbox{
+    text-align: center;
+    margin: 0px;
+    max-width: 300px;
+   }
+  
+   #section3-container{
+    flex-direction: column;
+   }
+         
+   #section3-img-container{
+    width: 230px;
+    height: 230px;
+    margin: 0px;
+    margin-top: 45px;
+   }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+/* section1 */   
+    #section1-title{
+     font-size: 29px;
+    }
+   
+    #section1-paragraph1{
+     font-size: 13px;
+    }
+   
+    #formulario1-box1{
+     padding: 7px 6px; 
+     width: 22%;
+    }
+   
+    #formulario1-box2{
+     padding: 7px 6px;
+     width: 22%;
+     margin-left: 15px;
+    }
+   
+    #formulario1-button{
+     padding-right: 120px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 22px;
+     width: 27%;
+     font-size: 15px;
+     margin-left: 15px;
+    }
+       
+    input::placeholder {
+     font-size: 12px; 
+    }
+   
+    #section1-container-rodape{
+     grid-template-rows: 85px 85px;
+     grid-template-columns: 170px 170px;
+     justify-content: space-evenly;
+    }
+   
+    .section1-dot1{
+     display: none;
+    }
+/* section2 */
+    .container-section2{
+     grid-template-rows: 125px 125px 125px 125px 125px 125px;
+     grid-template-columns: 20px 220px;
+     justify-content: space-evenly;
+    }
+       
+    .texto-titulo{
+     margin: 0px;
+    }
+/* section3 */
+    #section3-paragraph{
+     text-align: center;
+    }
+       
+    #section3-title{
+     text-align: center;
+    }
+       
+    #section3-textbox{
+     text-align: center;
+     margin: 0px;
+     max-width: 300px;
+    }
+   
+    #section3-container{
+     flex-direction: column;
+    }
+          
+    #section3-img-container{
+     width: 320px;
+     height: 300px;
+     margin: 0px;
+     margin-top: 45px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+    /* section1 */   
+    #section1-title{
+     font-size: 29px;
+    }
+
+    #section1-paragraph1{
+     font-size: 13px;
+    }
+
+    #formulario1-box1{
+     padding: 7px 6px; 
+     width: 20%;
+    }
+
+    #formulario1-box2{
+     padding: 7px 6px;
+     width: 20%;
+    }
+
+    #formulario1-button{
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    width: 27%;
+    font-size: 15px;
+    }
+    
+    input::placeholder {
+     font-size: 12px; 
+    }
+
+    #section1-container-rodape{
+     grid-template-rows: 85px 85px;
+     grid-template-columns: 170px 170px;
+     justify-content: space-evenly;
+    }
+
+    .section1-dot1{
+     display: none;
+    }
+    /* section2 */
+    .container-section2{
+     grid-template-rows: 130px 130px 130px 130px 130px 130px;
+     grid-template-columns: 15px 250px;
+     justify-content: space-evenly;
+    }
+    
+    .texto-titulo{
+     margin: 0px;
+    }
+    /* section3 */
+    #section3-paragraph{
+     text-align: center;
+    }
+    
+    #section3-title{
+     text-align: center;
+    }
+    
+    #section3-textbox{
+     text-align: center;
+     margin: 0px;
+     max-width: 300px;
+    }
+
+    #section3-container{
+     flex-direction: column;
+    }
+       
+    #section3-img-container{
+     width: 320px;
+     height: 300px;
+     margin: 0px;
+     margin-top: 45px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px){
+/* section1 */
+   #formulario1-button{
+    padding-right: 130px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+   }
+
+   #section1-paragraph1{
+    font-size: 17px;
+   }
+
+   #section1-title{
+    font-size: 45px;
+   }
+
+   #section1-container-rodape{
+    grid-template-rows: 85px 85px;
+    grid-template-columns: 170px 170px;
+    justify-content: space-evenly;
+}
+   .section1-dot1{ 
+    display: none;
+   }
+/* section2 */
+   .container-section2{
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 0px 250px 0px 215px;
+    justify-content: space-around;
+   }
+/* section3 */    
+    #section3-paragraph{
+     text-align: center;
+    }
+
+    #section3-title{
+     text-align: center;
+    }
+
+    #section3-textbox{
+     display: block;
+     margin: 0px;
+     margin-bottom: 15px;
+    }
+      
+    #section3-container{
+     flex-direction: column;
+     display: flex;
+    }
+      
+    #section3-img-container{
+     width: 500px;
+     height: 450px;
+     margin-left: 0px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px){
+/* section1 */
+    #formulario1-box1 {
+      width: 22%;
+    }
+  
+    #formulario1-box2 {
+      width: 22%;
+    }
+  
+    #formulario1-button{
+      width: 19%;
+    }
+    
+    #section1-container-rodape{
+      grid-template-columns: 180px 60px 180px 60px 180px 60px 180px;
+    }
+/* section2 */
+    .container-section2 {
+      grid-template-rows: 150px 100px 150px;
+      grid-template-columns: 0px 250px 0px 250px;
+    }
+
+/* section3 */
+    #section3-textbox{
+      display: block;
+      margin: 0px;
+      margin-bottom: 15px;
+    }
+    
+    #section3-container{
+      flex-direction: column;
+    }
+    
+    #section3-img-container{
+      max-width: 650px;
+      max-height: 450px;
+      margin-left: 0px;
+    }
+    
+    #section3-paragraph{
+      text-align: center;
+    }
+
+    #section3-title{
+     text-align: center;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+/* section1 */
+    #formulario1-button{
+        width: 16%;
+        padding: 13px 32px;
+    }
+
+/* section2 */
+ 
+/* section3 */
+   #section3-textbox{
+    margin-right: 50px;
+   }
+
+   #section3-img-container{
+    max-width: 640px;
+    max-height: 700px;
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+   }
+}

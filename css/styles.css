@@ -1,0 +1,494 @@
+/* IMPORTS */
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/check-o.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/credit-card.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/smile-none.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/smile-mouth-open.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/user-add.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/band-aid.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/awards.css');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+p,h1,h5{ color: #ffffff; }  /* os p´s   e  h1´s  */
+
+input {
+    color: whitesmoke
+}
+
+h2 {
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+input::placeholder {
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+/*  -----------------------------------------------------
+   --------------------section 1------------------------ 
+   ----------------------------------------------------- */
+
+/* CLASSES */
+.section1-dot1 {
+    height: 3px;
+    width: 3px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative; top: 4px;
+    position: relative; left: 15px;
+}
+
+.section1-col-dots {
+    width: 27px;
+    height: 5px;
+}
+
+.section1-paragraph2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.section1-customers-img{
+    max-width: 170px;
+    max-height: 170px;
+    width: auto;
+    height: auto;
+}
+
+/* IDS */
+#BG-Section1 {
+    background-color: #12355B;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+}
+
+#container-img-logo {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 70px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#section1-title{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#section1-paragraph1{
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+#section1-container-rodape{
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 200px 60px 200px 60px 200px 60px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario1-box1{
+    background-color: transparent;
+    border: #ffffff solid 1px;
+    width: 18%;
+    padding: 11px 20px;
+    border-radius: 4%;
+ }
+ 
+ #formulario1-box2{
+    background-color: transparent;
+    border: #ffffff solid 1px;
+    width: 18%;
+    padding: 11px 20px;
+    border-radius: 4%;
+    margin-left: 25px;
+ }
+ #formulario1-button{
+    background-color: #215FA1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 13%;
+    padding: 14px 30px;
+    border: none;
+    margin-left: 25px;
+    border-radius: 4%;
+    cursor: pointer;
+ }
+ 
+ #div-form{
+    margin-bottom: 130px;
+ }
+/*  -----------------------------------------------------
+   --------------------section 2------------------------ 
+   ----------------------------------------------------- */
+
+/* CLASSES */
+.textos-titulo2{
+    color: #ffffff;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+    
+.textos-paragrafo2{
+    margin: 0px;
+    color: #ffffff;
+}
+
+.gg-check-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,3));
+    width: 22px;
+    height: 22px;
+    border: #ffffff 2px solid;
+    border-radius: 100px;
+    color: white;
+}
+
+.gg-credit-card {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,3));
+    width: 24px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 4px;
+    color: white;
+}
+
+.gg-smile-none {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,3));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 100px;
+    color: white;
+}
+
+.gg-smile-mouth-open {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,3));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 100px;
+    color: white;
+}
+
+.gg-user-add {
+    display: block;
+    transform: scale(var(--ggs,3));
+    box-sizing: border-box;
+    width: 20px;
+    height: 18px;
+    color: white;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 8px,
+            transparent 0)
+            no-repeat 14px 6px/6px 2px,
+        linear-gradient(
+            to left,
+            currentColor 8px,
+            transparent 0)
+            no-repeat 16px 4px/2px 6px
+}
+
+.gg-band-aid {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform:
+        rotate(-25deg)
+        scale(var(--ggs,3));
+    width: 24px;
+    height: 12px;
+    border: 2px solid;
+    border-radius: 22px;
+    color: white;
+}
+
+.gg-awards {
+    display: block;
+    position: relative;
+    transform: scale(var(--ggs,3));
+    box-sizing: border-box;
+    width: 16px;
+    height: 20px;
+    border: 4px solid transparent;
+    border-top: 12px solid transparent;
+    border-bottom: 0;
+    color: white;
+    box-shadow:
+        inset 4px 0 0 -2px,
+        inset -4px 0 0 -2px
+}
+
+.texto-titulo{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 35px;
+}
+
+.textos-feature{
+    text-align: left;
+    display: inline-block;
+    width: 250px;
+}
+
+.container-section2{
+    display: grid;
+    align-items: center;
+    grid-template-rows: 150px 100px;
+    grid-template-columns: 0px 240px 0px 240px 0px 240px;
+    justify-content: space-evenly;
+
+}
+/* IDS */
+#linha2-div2-section2{
+    margin-top: 10px;
+}
+
+#section2{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #215FA1;
+    border-top: white solid 1px;
+}
+
+/*  -----------------------------------------------------
+   --------------------section 3------------------------ 
+   ----------------------------------------------------- */
+
+/* CLASSES */
+
+
+/* IDS */
+#section3-textbox{
+    align-items: center;
+    justify-content: center;
+    max-width: 440px;
+    margin-right: 80px;
+}
+
+#section3-paragraph{ 
+    text-align: left;
+}
+
+#section3-img-container{
+    height: 650px;
+    width: 800px;
+    justify-content: center;
+    display: block;
+    border-radius: 3%;
+    margin-left: 20px;
+
+}
+
+#section3 {
+    background-color: #12355B;
+    border-top: #ffffff solid 1px;
+    border-bottom: #ffffff solid 1px;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110vh;
+}
+
+#section3-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#section3-img-div{
+    justify-content: center;
+}
+
+#section3-title{
+    margin-bottom: 22px;
+}
+
+/*  -----------------------------------------------------
+   --------------------PARTE JOAO------------------------ 
+   ----------------------------------------------------- */
+
+/* -----------------------------------------------------
+--------------------section 4------------------------ 
+----------------------------------------------------- */
+
+.parte4{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #215FA1;
+ }
+
+ .imagem-i1{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+
+ .conteudo{
+    margin: 0 auto;
+ }
+
+ .texto{
+    float: right;
+    text-align: justify;
+ } 
+
+ .linha0{
+    padding-left: 30px;  
+ }
+/*  -----------------------------------------------------
+   --------------------section 5------------------------ 
+   ----------------------------------------------------- */
+
+ .parte5{
+    text-align:center ;
+    height: 80vh;
+    background-color:#12355B; 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .perfil-imagem img{
+    border-radius: 50%;
+    margin: 0,10px;
+    width: 100px;
+    margin: 5px;
+ }
+
+ .pessoas {
+    display: inline-block;
+    text-align: center;
+ }
+  
+ .pessoa1,.pessoa2 {
+    display: inline-block;
+    margin: 10px;
+ }
+ /* -----------------------------------------------------
+   --------------------section 6------------------------ 
+   ----------------------------------------------------- */
+
+ .parte6{
+    text-align:center ;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #215FA1
+ }
+
+ .roda-pe{
+    height: 15vh;
+    background-color:#12355B ; 
+ }
+
+ .logo-principal img{
+    width: 100px; /* Largura do logotipo (ajuste conforme necessário) */
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+ }
+ 
+ .textod-part7 p{
+    padding-top: 50px;
+    text-align: end;
+ }
+
+ .formulario1{
+    #nome1{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+    }
+    #email1{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+       margin-left: 25px;
+    }
+    #enviar1{
+       background-color: #6b8095;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       padding: 15px;
+       border: none;
+       margin-left: 25px;
+       border-radius: 4%;
+       cursor: pointer;
+    }
+ }
+
+ .formulario2{
+    #nome2{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+    }
+    #email2{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+       margin-left: 25px;
+    }
+    #enviar2{
+       background-color: #6b8095;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       padding: 15px;
+       border: none;
+       margin-left: 25px;
+       border-radius: 4%;
+       cursor: pointer;
+    }
+}
