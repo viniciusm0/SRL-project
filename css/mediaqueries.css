@@ -15,6 +15,7 @@
    
    #div-form{
     width: 320px;
+    margin-bottom: 70px;
    }
 
    #formulario1-box2{
@@ -141,7 +142,11 @@
     #section1-paragraph1{
      font-size: 13px;
     }
-   
+
+    #div-form{
+     margin-bottom: 90px;
+    }   
+     
     #formulario1-box1{
      padding: 7px 6px; 
      width: 22%;
@@ -221,6 +226,10 @@
 
     #section1-paragraph1{
      font-size: 13px;
+    }
+    
+    #div-form{
+     margin-bottom: 90px;
     }
 
     #formulario1-box1{
@@ -306,6 +315,10 @@
 
    #section1-title{
     font-size: 45px;
+   }
+
+   #div-form{
+    margin-bottom: 90px;
    }
 
    #section1-container-rodape{
