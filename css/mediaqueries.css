@@ -1,8 +1,5 @@
 @media (max-width: 321px) {
 /* section1 */   
-   #BG-Section1{
-   flex-wrap: nowrap;
-   }
    #section1-title{
     font-size: 29px;
     width: 320px;

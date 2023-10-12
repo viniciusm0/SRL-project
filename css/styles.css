@@ -65,7 +65,6 @@ input::placeholder {
 /* IDS */
 #BG-Section1 {
     background-color: #12355B;
-    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     text-align: center;
